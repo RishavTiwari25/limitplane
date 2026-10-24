@@ -573,4 +573,3 @@ blueprint for the same image; `deploy/` holds the Kubernetes and Helm paths.
 
 ---
 
-<sub>Originally built by Anshu Aman (mightbeanshuu); forked, extended and deployed by Rishav Tiwari.</sub>
