@@ -423,7 +423,7 @@ kubectl get tenants             # NAME  TENANT  TIER  ALLOWED  BLOCKED  LANE</pr
 <div id="toast"></div>
 
 <script>
-  window.LP_GATEWAY = "https://limitplane.onrender.com";
+  window.LP_GATEWAY = "https://limitplane-gateway.onrender.com";
   // wake the free-tier gateway now, so the dashboard is warm by the time someone opens it
   fetch(LP_GATEWAY + "/healthz", { mode: "no-cors" }).catch(() => {});
   function toast(html, ms){ const t = document.getElementById("toast"); t.innerHTML = html; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(()=>t.classList.remove("show"), ms || 6000); }

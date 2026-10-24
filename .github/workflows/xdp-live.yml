@@ -15,7 +15,7 @@ on:
         default: manual
       report_to:
         description: gateway to stream the log to (empty = do not stream)
-        default: https://limitplane.onrender.com
+        default: https://limitplane-gateway.onrender.com
 
 concurrency:
   group: xdp-live # one pair of VMs at a time, whoever starts it

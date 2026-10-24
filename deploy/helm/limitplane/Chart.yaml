@@ -11,7 +11,7 @@ version: 0.1.0
 appVersion: "1.1.0"
 
 keywords: [rate-limiting, gateway, operator, api-gateway, ext-authz, prometheus]
-home: https://limitplane.vercel.app
+home: https://limitplane-rishav.vercel.app
 sources:
   - https://github.com/RishavTiwari25/limitplane
 maintainers:

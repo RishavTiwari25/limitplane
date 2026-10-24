@@ -29,10 +29,10 @@ func (s *Server) handleCheckout(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	if body.SuccessURL == "" {
-		body.SuccessURL = "https://limitplane.vercel.app/?upgraded=1"
+		body.SuccessURL = "https://limitplane-rishav.vercel.app/?upgraded=1"
 	}
 	if body.CancelURL == "" {
-		body.CancelURL = "https://limitplane.vercel.app/"
+		body.CancelURL = "https://limitplane-rishav.vercel.app/"
 	}
 
 	session, err := s.Billing.CreateCheckoutSession(r.Header.Get("X-API-Key"), body.Plan, body.SuccessURL, body.CancelURL)

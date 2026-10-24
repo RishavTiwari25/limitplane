@@ -324,7 +324,7 @@ func run(logger *slog.Logger) error {
 			GitHubToken: os.Getenv("LIVE_TEST_GITHUB_TOKEN"),
 			Repo:        env("LIVE_TEST_REPO", "RishavTiwari25/limitplane"),
 			IngestKey:   os.Getenv("LIVE_TEST_INGEST_KEY"),
-			PublicURL:   env("LIVE_TEST_PUBLIC_URL", "https://limitplane.onrender.com"),
+			PublicURL:   env("LIVE_TEST_PUBLIC_URL", "https://limitplane-gateway.onrender.com"),
 			DailyCap:    5,
 		}),
 		GroqAPIKey: groqKey, Port: port, DefaultOrgID: defaultOrgID,

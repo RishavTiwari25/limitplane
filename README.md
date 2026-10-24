@@ -14,7 +14,7 @@ tokens for **one** endpoint it owns (`/v1/ai/proxy` → Groq, see
 `internal/ai/tokenmeter.go`), which is a demonstration of the idea, not a
 product surface.
 
-Site: **https://limitplane.vercel.app** · Gateway: **https://limitplane.onrender.com**
+Site: **https://limitplane-rishav.vercel.app** · Gateway: **https://limitplane-gateway.onrender.com**
 Kubernetes: **[operator, CRDs and the learning guide](docs/KUBERNETES.md)** ·
 `make kind-demo` · eBPF: **[XDP fast path](xdp/README.md)**
 

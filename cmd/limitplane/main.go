@@ -98,7 +98,7 @@ Flags:
   --alert-webhook <url>  POST autopilot alerts (quota, abuse cooldowns) here
   --trust-proxy          trust X-Forwarded-For (only behind your own load balancer)
 
-Set GROQ_API_KEY for AI-written alert notes. Docs: https://limitplane.vercel.app
+Set GROQ_API_KEY for AI-written alert notes. Docs: https://limitplane-rishav.vercel.app
 `)
 }
 
